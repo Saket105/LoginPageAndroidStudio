@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/one"
+    tools:context=".MainActivity">
+
+
+    <EditText
+        android:id="@+id/emailId"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:hint="Enter Your User id here"
+        android:inputType="textEmailAddress"
+        android:background="@color/Wheat"
+        android:textColorHint="@color/Gray"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="197dp"
+        android:layout_marginBottom="492dp"
+        android:gravity="center"
+        android:focusable="true"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="274dp"
+        android:layout_marginBottom="413dp"
+        android:layout_below="@+id/emailId"
+        android:background="@color/Wheat"
+        android:hint="Enter Your Password"
+        android:inputType="textPassword"
+        android:gravity="center"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        />
+
+    <CheckBox
+        android:id="@+id/show_password"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="346dp"
+        android:layout_marginBottom="337dp"
+        android:buttonTint="#fff"
+        android:text="Password Visibility"
+        android:textColor="@color/DarkBlue" />
+
+    <Button
+        android:id="@+id/forgot_password"
+        android:layout_width="186dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="205dp"
+        android:layout_marginLeft="205dp"
+        android:layout_marginTop="341dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:buttonTint="#fff"
+        android:layout_marginBottom="337dp"
+        android:text="Forgot Your Password?"
+        android:textAllCaps="false"
+        android:textSize="13sp" />
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="140dp"
+        android:layout_height="62dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="128dp"
+        android:layout_marginLeft="128dp"
+        android:layout_marginTop="424dp"
+        android:layout_marginEnd="142dp"
+        android:layout_marginRight="142dp"
+        android:layout_marginBottom="245dp"
+        android:background="@color/Wheat"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:text="SignUp" />
+
+    <Button
+        android:id="@+id/register"
+        android:layout_width="198dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="89dp"
+        android:layout_marginLeft="89dp"
+        android:layout_marginTop="508dp"
+        android:layout_marginEnd="124dp"
+        android:layout_marginRight="124dp"
+        android:layout_marginBottom="181dp"
+        android:background="@color/GreenYellow"
+        android:text="REGISTER" />
+
+
+</RelativeLayout>
